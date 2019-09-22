@@ -1,0 +1,18 @@
+<building>
+    <room name="arenaSingle">
+        <EnemyHandler/>
+        <Player x="740" y="ch" number="1"/>
+        <Text x="5" y="5" font="Querround16" text="Score: 0"/>
+    </room>
+    <room name="arenaDouble">
+        <EnemyHandler/>
+        <Player x="740" y="100" number="1"/>
+        <Player x="740" y="368" number="2"/>
+        <Text x="5" y="5" font="Querround16" text="Score: 0"/>
+    </room>
+    <room name="menu">
+        <Button x="cw" y="10" supplementary="1" text="Single Player" font="Querround16"/>
+        <Button x="cw" y="50" supplementary="2" text="Multi Player" font="Querround16"/>
+        <Button x="cw" y="90" supplementary="3" text="Quit" font="Querround16"/>
+    </room>
+</building>
