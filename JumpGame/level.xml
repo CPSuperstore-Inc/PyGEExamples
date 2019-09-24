@@ -1,0 +1,18 @@
+<building>
+    <room name="run">
+        <Player x="300"/>
+        <BarrierManager/>
+        <Laser/>
+        <Barrier x="600"/>
+        <LifeCounter template="Lives Left: {l}" x="10"/>
+        <LifeCounter template="Score: {s}" x="200"/>
+    </room>
+    <room name="died" color="black">
+        <Text text="You Loose!" font="comfortaa50" x="cw" y="10"/>
+        <PressKey next="run" x="cw" y="200"/>
+    </room>
+    <room name="start" color="black">
+        <Text text="Welcome To Laser Run!" font="comfortaa45" x="cw" y="10"/>
+        <PressKey next="run" x="cw" y="200"/>
+    </room>
+</building>
